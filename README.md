@@ -4,19 +4,32 @@
 
 ## 📌 Mô tả | Description
 
-🇻🇳 Đây là chương trình Java đơn giản giải bài toán **"Two Sum"** — tìm hai số trong một mảng sao cho tổng của chúng bằng một giá trị cho trước.
-
-🇬🇧 This is a simple Java program that solves the classic **"Two Sum"** problem — finding two numbers in an array whose sum equals a target value.
+- 🇻🇳 Tìm hai số trong mảng có tổng bằng `target`.
+- 🇬🇧 Find two numbers in an array that sum to the given `target`.
 
 ---
 
+## 🔍 Đề bài | Problem
 
+- 🇻🇳 Trả về chỉ số của hai số sao cho `nums[i] + nums[j] = target`.
+- 🇬🇧 Return indices of two numbers such that `nums[i] + nums[j] = target`.
 
-## 🔍 Mô tả bài toán | Problem Description
-
-- 🇻🇳 Cho một mảng số nguyên `nums` và một số nguyên `target`, hãy trả về **chỉ số của hai số** sao cho tổng của chúng bằng `target`.
-- 🇬🇧 Given an array of integers `nums` and an integer `target`, return **the indices of the two numbers** such that they add up to `target`.
-
+**Ví dụ | Example**:
 Input: nums = [2, 7, 11, 15], target = 9
-Output: [0, 1] // Vì nums[0] + nums[1] = 9
+Output: [0, 1]
 
+yaml
+Copy
+Edit
+
+---
+
+## ▶️ Chạy chương trình | Run the program
+
+```bash
+javac Main.java && java Main
+<details> <summary>📚 Xem thêm bài khác | More Lessons</summary>
+Bài	Tên bài	Link
+01	Two Sum	✅ Đang xem
+02	Add Two Numbers	🔗 Lesson 2
+03	Valid Parentheses	🔗 Lesson 3
